@@ -1,0 +1,108 @@
+#HomeContainer {
+  height: 100vh;
+  background: #f7f8fc;
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: #ffff;
+   }
+
+  .logo{
+
+    > img {
+      max-width: 150px;
+    }
+  }
+  
+  .user-avatar {
+    display: flex;
+
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      color: #737380;
+      margin-top: 16px;
+    }
+  
+    > img{
+      max-width: 120px;
+    }
+  }
+
+  #avatar{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin-left: 10px;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .home-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 30px 100px;
+
+    > p {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 36px;
+      align-items: center;
+      text-align: center;
+
+      color: #969cb2;
+    }
+   }
+  }
+
+  .solicitation{
+    height: 50px;
+    width: 272px;
+    border-radius: 60px;
+    font-weight: 500;
+    background: #37C56F;
+    color: #FFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    border: 0;
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+
+ .card-status-solicitation{
+  margin: 30px 100px;
+
+  #not-found-solicitation {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+    > h1 {
+      font-size: 38px;
+      font-weight: 500;
+      color: #969cb2;
+    }
+   }
+ } 
+
+footer{
+  text-align: center;
+
+  margin: 10px;
+}
+  
+}
